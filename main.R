@@ -2,7 +2,7 @@ friendly<-function(n){
   #split up the number into its digits.
   x<-as.numeric(strsplit(as.character(n),"")[[1]])
   #initialize variables as needed
-  m<-length(x);z<-0;j<-0
+  z<-0;j<-0
   y<-vector("numeric",1)
   #conduct primary operations
   while(length(unique(y))==length(y)){ #to prevent infinite loops
