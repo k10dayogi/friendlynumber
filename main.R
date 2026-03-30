@@ -10,7 +10,6 @@ happy<-function(n){
     z<-sum(x^2);y<-c(y,z)
     x<-as.numeric(strsplit(as.character(z),"")[[1]])
   }
-  print(y)
   #if the loop ends in 1, a number is "happy"
   if(y[length(y)]==1){print("happy number")}
   else{print("unhappy number")}
