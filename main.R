@@ -1,4 +1,4 @@
-friendly<-function(n){
+happy<-function(n){
   #split up the number into its digits.
   x<-as.numeric(strsplit(as.character(n),"")[[1]])
   #initialize variables as needed
@@ -11,7 +11,7 @@ friendly<-function(n){
     x<-as.numeric(strsplit(as.character(z),"")[[1]])
   }
   print(y)
-  #if the loop ends in 1, a number is "friendly."
-  if(y[length(y)]==1){print("friendly number")}
-  else{print("unfriendly number")}
+  #if the loop ends in 1, a number is "happy"
+  if(y[length(y)]==1){print("happy number")}
+  else{print("unhappy number")}
 }
